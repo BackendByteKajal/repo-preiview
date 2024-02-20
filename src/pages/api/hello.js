@@ -7,6 +7,6 @@ export default apiHandler({
 
 async function hello(req, res) {
   const param = req.query.action;
- 
+ console.log("hello")
   return res.status(200).json("content");
 }
